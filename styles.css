@@ -174,100 +174,10 @@ h3 {
   justify-content: center;
 }
 
-.phone {
-  width: min(370px, 78vw);
-  aspect-ratio: 0.49;
-  padding: 13px;
-  border: 1px solid rgba(23, 50, 71, 0.18);
-  border-radius: 42px;
-  background: #102f44;
-  box-shadow: var(--shadow);
-}
-
-.phone-screen {
-  position: relative;
-  height: 100%;
-  overflow: hidden;
-  border-radius: 31px;
-  background: #e9f5f7;
-}
-
-.phone-bg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.status-card,
-.status-grid {
-  position: absolute;
-  left: 18px;
-  right: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.52);
-  background: rgba(255, 255, 255, 0.78);
-  backdrop-filter: blur(16px);
-  box-shadow: 0 12px 28px rgba(23, 50, 71, 0.16);
-}
-
-.status-card {
-  top: 26px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 14px;
-  border-radius: 16px;
-}
-
-.status-card strong,
-.status-card span {
-  display: block;
-}
-
-.status-card span {
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 700;
-}
-
-.status-dot {
-  flex: 0 0 auto;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: #2fb57d;
-  box-shadow: 0 0 0 7px rgba(47, 181, 125, 0.14);
-}
-
-.status-grid {
-  bottom: 22px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  padding: 12px;
-  border-radius: 18px;
-}
-
-.status-grid div {
-  min-height: 78px;
-  padding: 12px;
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.68);
-}
-
-.status-grid span,
-.status-grid strong {
-  display: block;
-}
-
-.status-grid span {
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 800;
-}
-
-.status-grid strong {
-  margin-top: 5px;
-  font-size: 15px;
+.hero-phone {
+  width: min(390px, 82vw);
+  height: auto;
+  filter: drop-shadow(0 28px 55px rgba(23, 50, 71, 0.22));
 }
 
 .feature-band {
@@ -457,7 +367,7 @@ footer a {
     width: 100%;
   }
 
-  .phone {
+  .hero-phone {
     width: min(330px, 100%);
   }
 
