@@ -95,6 +95,13 @@ nav a:hover {
   max-width: 760px;
 }
 
+.hero-logo {
+  width: clamp(104px, 16vw, 156px);
+  height: auto;
+  margin-bottom: 22px;
+  filter: drop-shadow(0 12px 24px rgba(23, 50, 71, 0.12));
+}
+
 .eyebrow {
   margin: 0 0 12px;
   color: var(--blue-dark);
